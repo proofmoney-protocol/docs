@@ -63,13 +63,13 @@ ProofMoney should be treated as an experimental open protocol design.
 
 ## Core MVP Prototype
 
-ProofMoney Core v0.7.0-internal-review-hardening is now available.
+ProofMoney Core v0.8.0-cli-integration-hardening is now available.
 
 Core repository:
 
 https://github.com/proofmoney-protocol/core
 
-The current Core MVP is a local Rust prototype under founder-led internal review and hardening. It includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, local Proof API JSON export, proof snapshot generation, release event proof listing, transfer event proof listing, static local Proof Explorer prototype, developer quickstart, local demo script, sample proof fixtures, architecture overview, security review scope, contributor guide, MVP scope freeze, external review notes, internal review notes, negative test coverage, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
+The current Core MVP is a local Rust prototype under founder-led internal review and CLI integration hardening. It includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, local ledger reset, local state validation, local tamper detection, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, local Proof API JSON export, proof snapshot generation with freshness metadata, release event proof listing, transfer event proof listing, static local Proof Explorer prototype, developer quickstart, local demo scripts, isolated CLI integration tests, sample proof fixtures, architecture overview, security review scope, contributor guide, MVP scope freeze, external review notes, internal review notes, negative test coverage, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
 
 Read the Core MVP reports:
 
@@ -80,6 +80,7 @@ Read the Core MVP reports:
 - [ProofMoney Core MVP Report v0.5.0-developer-release](./docs/16-core-mvp-report-v0.5.0-developer-release.md)
 - [ProofMoney Core MVP Report v0.6.0-external-review](./docs/17-core-mvp-report-v0.6.0-external-review.md)
 - [ProofMoney Core MVP Report v0.7.0-internal-review-hardening](./docs/18-core-mvp-report-v0.7.0-internal-review-hardening.md)
+- [ProofMoney Core MVP Report v0.8.0-cli-integration-hardening](./docs/19-core-mvp-report-v0.8.0-cli-integration-hardening.md)
 
 This prototype is experimental. It is not a public network, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, public explorer, production wallet, or completed audit.
 
