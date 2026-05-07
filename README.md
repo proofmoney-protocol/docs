@@ -63,18 +63,19 @@ ProofMoney should be treated as an experimental open protocol design.
 
 ## Core MVP Prototype
 
-ProofMoney Core v0.2.0-local-ledger is now available.
+ProofMoney Core v0.3.0-ownership-and-flow is now available.
 
 Core repository:
 
 https://github.com/proofmoney-protocol/core
 
-The current Core MVP is a local Rust prototype. It includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, release event append flow, computed supply verification, Proof of Rule, Proof of Ownership MVP, and GitHub Actions CI.
+The current Core MVP is a local Rust prototype. It includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
 
 Read the Core MVP reports:
 
 - [ProofMoney Core MVP Report v0.1.0-alpha](./docs/12-core-mvp-report-v0.1.0-alpha.md)
 - [ProofMoney Core MVP Report v0.2.0-local-ledger](./docs/13-core-mvp-report-v0.2.0-local-ledger.md)
+- [ProofMoney Core MVP Report v0.3.0-ownership-and-flow](./docs/14-core-mvp-report-v0.3.0-ownership-and-flow.md)
 
 This prototype is experimental. It is not a public network, PRM sale, yield product, airdrop claim, exchange integration, or production wallet.
 
