@@ -63,13 +63,13 @@ ProofMoney should be treated as an experimental open protocol design.
 
 ## Core MVP Prototype
 
-ProofMoney Core v1.0.0-local-mvp-freeze is now available.
+ProofMoney Core v1.1.0-testnet-design is now available.
 
 Core repository:
 
 https://github.com/proofmoney-protocol/core
 
-ProofMoney Core has reached its first stable local MVP baseline. The current Core MVP is a local Rust baseline that includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, local ledger reset, local state validation, local tamper detection, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, local Proof API JSON export, proof snapshot generation with freshness metadata, release event proof listing, transfer event proof listing, static local Proof Explorer prototype, developer quickstart, local demo scripts, isolated CLI integration tests, sample proof fixtures, architecture overview, security review scope, contributor guide, MVP scope freeze, external review notes, internal review notes, negative test coverage, protocol specification documents, local MVP baseline manifest, command reference, demo guide, risk summary, release history, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
+ProofMoney Core has reached its first stable local MVP baseline and now includes public testnet design documents. The current Core repository includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, local ledger reset, local state validation, local tamper detection, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, local Proof API JSON export, proof snapshot generation with freshness metadata, release event proof listing, transfer event proof listing, static local Proof Explorer prototype, developer quickstart, local demo scripts, isolated CLI integration tests, protocol specification documents, local MVP baseline documents, public testnet design documents, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
 
 Read the Core MVP reports:
 
@@ -83,18 +83,20 @@ Read the Core MVP reports:
 - [ProofMoney Core MVP Report v0.8.0-cli-integration-hardening](./docs/19-core-mvp-report-v0.8.0-cli-integration-hardening.md)
 - [ProofMoney Core MVP Report v0.9.0-protocol-spec-freeze](./docs/20-core-mvp-report-v0.9.0-protocol-spec-freeze.md)
 - [ProofMoney Core MVP Report v1.0.0-local-mvp-freeze](./docs/21-core-mvp-report-v1.0.0-local-mvp-freeze.md)
+- [ProofMoney Core MVP Report v1.1.0-testnet-design](./docs/22-core-mvp-report-v1.1.0-testnet-design.md)
 
-Read the Core MVP baseline documents:
+Read the public testnet design documents:
 
-- [Local MVP Baseline Manifest](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-baseline-v1.0.0.md)
-- [Core Documentation Index](https://github.com/proofmoney-protocol/core/blob/main/docs/core-documentation-index-v1.0.0.md)
-- [Local MVP Command Reference](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-command-reference-v1.0.0.md)
-- [Local MVP Demo Guide](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-demo-guide-v1.0.0.md)
-- [Local MVP Risk and Limitations](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-risk-and-limitations-v1.0.0.md)
-- [Local MVP Release History](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-release-history-v1.0.0.md)
-- [Local MVP Public Summary](https://github.com/proofmoney-protocol/core/blob/main/docs/local-mvp-public-summary-v1.0.0.md)
+- [Testnet Design Index](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-design-index-v1.1.0.md)
+- [Testnet Goals and Scope](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-goals-and-scope-v1.1.0.md)
+- [Testnet Node Architecture](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-node-architecture-v1.1.0.md)
+- [Testnet Network Message Model](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-network-message-model-v1.1.0.md)
+- [Testnet Ledger Sync Model](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-ledger-sync-model-v1.1.0.md)
+- [Testnet Faucet Boundary](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-faucet-boundary-v1.1.0.md)
+- [Testnet Explorer Requirements](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-explorer-requirements-v1.1.0.md)
+- [Testnet Wallet Safety Policy](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-wallet-safety-policy-v1.1.0.md)
 
-This prototype is experimental. It is not a public network, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, public explorer, production wallet, or completed audit.
+This release is design-only. It is not a public testnet launch, public network, mainnet, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, public explorer, production wallet, or completed audit.
 
 ---
 
