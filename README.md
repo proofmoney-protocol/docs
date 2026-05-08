@@ -63,13 +63,13 @@ ProofMoney should be treated as an experimental open protocol design.
 
 ## Core MVP Prototype
 
-ProofMoney Core v1.2.0-testnet-node-api is now available.
+ProofMoney Core v1.3.0-testnet-read-api-server is now available.
 
 Core repository:
 
 https://github.com/proofmoney-protocol/core
 
-ProofMoney Core has reached its first stable local MVP baseline, completed public testnet design, and now includes the first minimal testnet node/API model skeleton. The current Core repository includes a Cargo workspace, CLI commands, local ledger, local proof exports, local Proof Explorer, protocol specs, local MVP baseline docs, public testnet design docs, `proofmoney-node` crate skeleton, node status model, ledger status model, proof query model, event list model, disabled-by-default event submission draft, disabled-by-default faucet draft, and GitHub Actions CI.
+ProofMoney Core has reached its first stable local MVP baseline, completed public testnet design, added the first minimal testnet node/API model skeleton, and now includes a local read-only API server skeleton. The current Core repository includes local MVP commands, local proof exports, local Proof Explorer, protocol specs, public testnet design docs, `proofmoney-node`, node status model, ledger status model, proof query model, event list model, local read-only route dispatcher, disabled-by-default event submission draft, disabled-by-default faucet draft, and GitHub Actions CI.
 
 Read the Core MVP reports:
 
@@ -85,14 +85,15 @@ Read the Core MVP reports:
 - [ProofMoney Core MVP Report v1.0.0-local-mvp-freeze](./docs/21-core-mvp-report-v1.0.0-local-mvp-freeze.md)
 - [ProofMoney Core MVP Report v1.1.0-testnet-design](./docs/22-core-mvp-report-v1.1.0-testnet-design.md)
 - [ProofMoney Core MVP Report v1.2.0-testnet-node-api](./docs/23-core-mvp-report-v1.2.0-testnet-node-api.md)
+- [ProofMoney Core MVP Report v1.3.0-testnet-read-api-server](./docs/24-core-mvp-report-v1.3.0-testnet-read-api-server.md)
 
-Read the testnet node/API materials:
+Read the testnet API materials:
 
+- [Testnet Read API Server v1.3.0](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-read-api-server-v1.3.0.md)
 - [Testnet Node/API Model v1.2.0](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-node-api-v1.2.0.md)
 - [proofmoney-node README](https://github.com/proofmoney-protocol/core/blob/main/crates/proofmoney-node/README.md)
-- [Testnet Design Index](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-design-index-v1.1.0.md)
 
-This release is a testnet node/API skeleton only. It is not a live public testnet, mainnet, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, production wallet, or completed audit.
+This release is a local read-only API server skeleton only. It is not a live public testnet, mainnet, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, production wallet, or completed audit.
 
 ---
 
