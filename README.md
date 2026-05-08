@@ -63,13 +63,13 @@ ProofMoney should be treated as an experimental open protocol design.
 
 ## Core MVP Prototype
 
-ProofMoney Core v1.1.0-testnet-design is now available.
+ProofMoney Core v1.2.0-testnet-node-api is now available.
 
 Core repository:
 
 https://github.com/proofmoney-protocol/core
 
-ProofMoney Core has reached its first stable local MVP baseline and now includes public testnet design documents. The current Core repository includes a Cargo workspace, CLI commands, Starting State Proof, Proof Release Curve simulation, deterministic event hashing, local ledger JSON persistence, local ledger reset, local state validation, local tamper detection, release event append flow, computed supply verification, local wallet persistence, address inspection, message signing, transfer event creation, local balance tracking, insufficient balance rejection, stronger Proof of Flow, local Proof API JSON export, proof snapshot generation with freshness metadata, release event proof listing, transfer event proof listing, static local Proof Explorer prototype, developer quickstart, local demo scripts, isolated CLI integration tests, protocol specification documents, local MVP baseline documents, public testnet design documents, Proof of Rule, Proof of Ownership, and GitHub Actions CI.
+ProofMoney Core has reached its first stable local MVP baseline, completed public testnet design, and now includes the first minimal testnet node/API model skeleton. The current Core repository includes a Cargo workspace, CLI commands, local ledger, local proof exports, local Proof Explorer, protocol specs, local MVP baseline docs, public testnet design docs, `proofmoney-node` crate skeleton, node status model, ledger status model, proof query model, event list model, disabled-by-default event submission draft, disabled-by-default faucet draft, and GitHub Actions CI.
 
 Read the Core MVP reports:
 
@@ -84,19 +84,15 @@ Read the Core MVP reports:
 - [ProofMoney Core MVP Report v0.9.0-protocol-spec-freeze](./docs/20-core-mvp-report-v0.9.0-protocol-spec-freeze.md)
 - [ProofMoney Core MVP Report v1.0.0-local-mvp-freeze](./docs/21-core-mvp-report-v1.0.0-local-mvp-freeze.md)
 - [ProofMoney Core MVP Report v1.1.0-testnet-design](./docs/22-core-mvp-report-v1.1.0-testnet-design.md)
+- [ProofMoney Core MVP Report v1.2.0-testnet-node-api](./docs/23-core-mvp-report-v1.2.0-testnet-node-api.md)
 
-Read the public testnet design documents:
+Read the testnet node/API materials:
 
+- [Testnet Node/API Model v1.2.0](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-node-api-v1.2.0.md)
+- [proofmoney-node README](https://github.com/proofmoney-protocol/core/blob/main/crates/proofmoney-node/README.md)
 - [Testnet Design Index](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-design-index-v1.1.0.md)
-- [Testnet Goals and Scope](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-goals-and-scope-v1.1.0.md)
-- [Testnet Node Architecture](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-node-architecture-v1.1.0.md)
-- [Testnet Network Message Model](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-network-message-model-v1.1.0.md)
-- [Testnet Ledger Sync Model](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-ledger-sync-model-v1.1.0.md)
-- [Testnet Faucet Boundary](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-faucet-boundary-v1.1.0.md)
-- [Testnet Explorer Requirements](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-explorer-requirements-v1.1.0.md)
-- [Testnet Wallet Safety Policy](https://github.com/proofmoney-protocol/core/blob/main/docs/testnet/testnet-wallet-safety-policy-v1.1.0.md)
 
-This release is design-only. It is not a public testnet launch, public network, mainnet, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, public explorer, production wallet, or completed audit.
+This release is a testnet node/API skeleton only. It is not a live public testnet, mainnet, PRM sale, yield product, airdrop claim, exchange integration, hosted public API, production wallet, or completed audit.
 
 ---
 
